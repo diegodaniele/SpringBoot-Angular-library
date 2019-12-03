@@ -1,4 +1,4 @@
-package eu.dreamix.crud.domain;
+package com.diego.crud.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

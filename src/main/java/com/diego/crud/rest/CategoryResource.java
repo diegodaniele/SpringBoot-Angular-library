@@ -1,4 +1,4 @@
-package eu.dreamix.crud.rest;
+package com.diego.crud.rest;
 
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -6,6 +6,7 @@ import java.util.List;
 
 import javax.persistence.EntityNotFoundException;
 
+import com.diego.crud.service.CategoryService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -15,8 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import eu.dreamix.crud.domain.Category;
-import eu.dreamix.crud.service.CategoryService;
+import com.diego.crud.domain.Category;
 
 @RestController
 @RequestMapping("/api")

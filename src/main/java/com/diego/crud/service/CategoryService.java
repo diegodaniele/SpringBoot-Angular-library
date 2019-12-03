@@ -1,4 +1,4 @@
-package eu.dreamix.crud.service;
+package com.diego.crud.service;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import javax.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import eu.dreamix.crud.domain.Category;
-import eu.dreamix.crud.repository.CategoryRepository;
+import com.diego.crud.domain.Category;
+import com.diego.crud.repository.CategoryRepository;
 
 @Service
 public class CategoryService {

@@ -1,4 +1,4 @@
-package eu.dreamix.crud;
+package com.diego.crud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
