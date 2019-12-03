@@ -1,0 +1,7 @@
+.settings
+.sts4-cache/
+target/
+
+*.classpath
+*.project
+*.tern-project
